@@ -34,4 +34,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: SRPG_Unpacker-${{env.BUILD_CONFIGURATION}}-${{matrix.platform}}
-        path: SRPG_Unpacker/SRPG_Unpacker/${{matrix.platform}}/${{env.BUILD_CONFIGURATION}}/
+        path: SRPG_Unpacker/SRPG_Unpacker/${{matrix.platform}}/${{env.BUILD_CONFIGURATION}}/SRPG_Unpacker.exe
